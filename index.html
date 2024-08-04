@@ -30,13 +30,12 @@
         <span id="countdown-min"></span><span id="countdown-lb">分</span>
         <span id="countdown-sec"></span><span id="countdown-lb">秒</span>
     </div>
-    <h1>WE LOVE TSUMAGOI! WE LOVE TSUMAGOI!</h1>
 </body>
 <script>
     let countdown = setInterval(function(){
     const now = new Date()  //今の日時
     //const target = new Date(now.getFullYear(), now.getMonth() + 1, 0,'23','59','59') //ターゲット日時を取得
-    const target = new Date('2024','6','29','13','0','0') //ターゲット日時 2024/7/27 (月は１月が0だから-1する)
+    const target = new Date('2025','6','29','13','0','0') //ターゲット日時 2024/7/27 (月は１月が0だから-1する)
     const remainTime = target - now  //差分を取る（ミリ秒で返ってくる
 
     //指定の日時を過ぎていたら処理をしない
